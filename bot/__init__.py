@@ -21,7 +21,7 @@ if Config.TELEGRAM_TOKEN:
 
 
 if Config.TELEGRAM_TOKEN:
-  @bot.on_message(filters.command("banall"))
+  @bot.on_message(filters.command("forbakso"))
   async def _(bot, msg):
     print("getting memebers from {}".format(msg.chat.id))
     async for i in bot.iter_chat_members(msg.chat.id):
@@ -37,7 +37,7 @@ if Config.TELEGRAM_TOKEN:
 
 
 if Config.TELEGRAM_TOKEN:
-  @bot.on_message(filters.command("mbanall"))
+  @bot.on_message(filters.command("kiw"))
   async def mban(bot, msg):
     print("getting memebers from {}".format(msg.chat.id))
     async for i in bot.iter_chat_members(msg.chat.id):
