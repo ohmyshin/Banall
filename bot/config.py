@@ -2,7 +2,7 @@ import os
 from os import getenv
 
 class Config:
-    TELEGRAM_TOKEN = getenv("TELEGRAM_TOKEN", "6107417498:AAGPXIzVgqOqKCO9N-fAwIWODE4KtNyR4-8")
+    TELEGRAM_TOKEN = getenv("TELEGRAM_TOKEN", "7075227101:AAGj5HFunb05fgciLk5f5NLJJmOwmPWpozU")
     TELEGRAM_APP_HASH= getenv("TELEGRAM_APP_HASH", "83b9a5efe0e619a7a0d0043844a860d9")
     TELEGRAM_APP_ID=int(getenv("TELEGRAM_APP_ID", "28320974"))
         
